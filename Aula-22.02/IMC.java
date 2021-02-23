@@ -3,7 +3,7 @@ import javax.swing.JOptionPane;
 public class IMC {
 
     public static void calcularIMC(Double imc) {
-        if (imc < 17) {
+        if (imc >= 16 && imc <= 16.9) {
             JOptionPane.showMessageDialog(null, "Muito abaixo do peso");
         } else if (imc >= 17 && imc <= 18.4) {
             JOptionPane.showMessageDialog(null, "Abaixo do peso");
@@ -17,6 +17,9 @@ public class IMC {
             JOptionPane.showMessageDialog(null, "Obesidade Grau II");
         } else if (imc > 40) {
             JOptionPane.showMessageDialog(null, "Obesidade Grau III");
+        }
+        else{
+            JOptionPane.showMessageDialog(null, "Como você está vivo??????");
         }
     }
 
