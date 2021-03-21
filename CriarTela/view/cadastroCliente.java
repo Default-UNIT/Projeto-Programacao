@@ -281,6 +281,9 @@ public class cadastroCliente extends javax.swing.JFrame {
         txtNomeCliente.setText("");
         txtCpfCliente.setText("");
         txtTelefoneCliente.setText("");
+        
+        p.registrarCliente();
+        
     }                                           
       
                                          
@@ -374,4 +377,5 @@ public class cadastroCliente extends javax.swing.JFrame {
     private javax.swing.JTextField txtNomeCliente;
     private javax.swing.JTextField txtTelefoneCliente;
     // End of variables declaration                   
+
 }
