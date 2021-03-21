@@ -275,6 +275,9 @@ public class cadastroFuncionario extends javax.swing.JFrame {
         txtCodFunc.setText("");
         txtNomeFunc.setText("");
         txtCpfFunc.setText("");
+        
+        f.registrarFuncionario();
+        
     }                                               
 
     private void btListarFuncActionPerformed(java.awt.event.ActionEvent evt) {                                             
