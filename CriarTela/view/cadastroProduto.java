@@ -269,6 +269,8 @@ public class cadastroProduto extends javax.swing.JFrame {
         txtCatProduto.setText("");
         txtFmlProduto.setText("");
         
+        pd.registrarProduto();
+        
     }                                                  
 
     /**
